@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Backup Log
+
+# Model Form Field configuration
+form: $/octobro/backuplog/models/backuplog/fields.yaml
+
+# Model Class name
+modelClass: Octobro\BackupLog\Models\BackupLog
+
+# Default redirect location
+defaultRedirect: octobro/backuplog/backuplogs
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: octobro/backuplog/backuplogs/update/:id
+    redirectClose: octobro/backuplog/backuplogs
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: octobro/backuplog/backuplogs
+    redirectClose: octobro/backuplog/backuplogs
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

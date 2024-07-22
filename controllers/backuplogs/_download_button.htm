@@ -1,0 +1,12 @@
+
+<a
+    href="javascript:;"
+    data-request="onDownloadBackup"
+    data-request-data="backup_id: <?= $record->id ?>"
+    data-request-download
+    data-request-files
+    data-load-indicator="downloading..."
+    data-request-flash="Downloading..."
+    class="btn btn-secondary oc-icon-download <?= !$record->is_file_exist ? 'disabled' : '' ?>">
+    Backup
+</a>

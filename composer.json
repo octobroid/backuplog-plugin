@@ -1,0 +1,9 @@
+{
+    "name": "octobro/backuplog-plugin",
+    "type": "october-plugin",
+    "description": "An Backup Management for your database",
+    "require": {
+        "composer/installers": "~1.0",
+        "spatie/laravel-backup": "^8.1"
+    }
+}
